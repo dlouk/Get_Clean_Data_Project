@@ -82,7 +82,7 @@ of each activity and subject.
 'tidy_sensor_data_avg.txt'.
 * 'tidy_sensor_data_avg.txt', as well as the variable 'sensor_data_wanted_avg'
 which contains its data, have 68 columns and 180 rows (30 subjects * 6 
-activities). It is structured as follows:
+activities). It is structured as follows:  
 subject_ID  activity     tBodyAccmeanX ... rest of the variables  
 1            LAYING       0.2215982  
 1            SITTING      0.2612376  
