@@ -80,3 +80,16 @@ is created, which contains an independent, tidy dataset with the average value
 of each activity and subject. 
 * The dataset of 'sensor_data_wanted_avg' is written in a txt file named
 'tidy_sensor_data_avg.txt'.
+* 'tidy_sensor_data_avg.txt', as well as the variable 'sensor_data_wanted_avg'
+which contains its data, have 68 columns and 180 rows (30 subjects * 6 
+activities). It is structured as follows:
+subject_ID  activity     tBodyAccmeanX ... rest of the variables
+1            LAYING       0.2215982
+1            SITTING      0.2612376
+1            STANDING     0.2789176
+1            WALKING      0.2773308
+1      WALKING_DOWNSTAIRS 0.2891883
+1      WALKING_UPSTAIRS   0.2554617
+2            LAYING       0.2813734
+2            SITTING      0.2770874
+... rest of the subject_IDs
