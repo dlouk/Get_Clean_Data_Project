@@ -46,9 +46,9 @@ variables. Those variables, along with the files they load, are:
 ## 2. Merge Data
 * Each test/train dataset is merged in one dataset - x, y or s - using the 
 'rbind' command of R. The resulting variables are:
-	- x_merged: merges x_test, x_train
-	- y_merged: merges y_test, y_train
-	- s_merged: merges s_test, s_train
+	* x_merged: merges x_test, x_train
+	* y_merged: merges y_test, y_train
+	* s_merged: merges s_test, s_train
 
 * In 'y_merged' the activity labels are replaced with the actual activity 
 names, i.e. '1' --> 'WALKING', '2' --> 'WALKING_UPSTAIRS', etc.
