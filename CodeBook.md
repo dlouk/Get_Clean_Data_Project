@@ -37,11 +37,11 @@ who performed the activity for each window sample. Their range is from 1 to 30.
 ## 1. Load Data
 The content of the files presented above are loaded to respective 
 variables. Those variables, along with the files they load, are:
-	- x_test, x_train: 'X_test.txt', 'X_train.txt', respectively 
-	- y_test, y_train: 'y_test.txt', ytrain.txt', respectively
-	- s_test, s_train: 'subject_test.txt', 'subject_train.txt', respectively
-	- features: 'features.txt'
-	- activity_labels: 'activity_labels.txt'
+	* x_test, x_train: 'X_test.txt', 'X_train.txt', respectively 
+	* y_test, y_train: 'y_test.txt', ytrain.txt', respectively
+	* s_test, s_train: 'subject_test.txt', 'subject_train.txt', respectively
+	* features: 'features.txt'
+	* activity_labels: 'activity_labels.txt'
 	
 ## 2. Merge Data
 * Each test/train dataset is merged in one dataset - x, y or s - using the 
