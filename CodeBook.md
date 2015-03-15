@@ -1,3 +1,9 @@
+The code book describes the variables, the data, and any transformations or 
+work performed to clean up the data. It has been separated in two (2) parts.
+Part 1, "Original Data", describes the data used in this project. Part 2, 
+"Data Manipulation" describes the procedure followed in order to fulfil the 
+project's requirements and create the tidy datasets. 
+
 # Original Data
 The data used for this project  represent data collected from the 
 accelerometers of the Samsung Galaxy S smartphone. A full description is 
