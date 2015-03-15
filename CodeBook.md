@@ -40,7 +40,7 @@ the respective dataset, i.e. test or training. Each row identifies the subject
 who performed the activity for each window sample. Their range is from 1 to 30.
 
 # Data manipulation with run_analysis.R
-## 1. Load Data
+## 1. Load Data (script lines 12-24)
 The content of the files presented above are loaded to respective 
 variables. Those variables, along with the files they load, are:
 * x_test, x_train: 'X_test.txt', 'X_train.txt', respectively 
@@ -49,7 +49,7 @@ variables. Those variables, along with the files they load, are:
 * features: 'features.txt'
 * activity_labels: 'activity_labels.txt'
 	
-## 2. Merge Data
+## 2. Merge Data - Fix variable/activity names (script lines 27-69)
 * Each test/train dataset is merged in one dataset - x, y or s - using the 
 'rbind' command of R. The resulting variables are:
 	* x_merged: merges x_test, x_train
@@ -74,7 +74,7 @@ identified and their indices place in variable 'wanted_columns'.
 'sensor_data_wanted' variable is created, containing only the columns of 
 interest.    
 
-## 3. Create an independent, tidy dataset (project's step 5)
+## 3. Create independent, tidy dataset (script lines 72-80)
 * Using plyr library's 'ddply' command, the 'sensor_data_wanted_avg' variable 
 is created, which contains an independent, tidy dataset with the average value 
 of each activity and subject. 
