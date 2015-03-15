@@ -38,7 +38,7 @@ who performed the activity for each window sample. Their range is from 1 to 30.
 The content of the files presented above are loaded to respective 
 variables. Those variables, along with the files they load, are:
 * x_test, x_train: 'X_test.txt', 'X_train.txt', respectively 
-* y_test, y_train: 'y_test.txt', ytrain.txt', respectively
+* y_test, y_train: 'y_test.txt', y_train.txt', respectively
 * s_test, s_train: 'subject_test.txt', 'subject_train.txt', respectively
 * features: 'features.txt'
 * activity_labels: 'activity_labels.txt'
